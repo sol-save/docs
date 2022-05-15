@@ -1,6 +1,6 @@
 export default {
   github: 'https://github.com/sol-save',
-  docsRepositoryBase: 'https://github.com/sol-save/cli',
+  docsRepositoryBase: 'https://github.com/sol-save/docs',
   titleSuffix: ' – GitSol',
   logo: (
     <>
