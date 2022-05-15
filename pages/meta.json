@@ -1,5 +1,8 @@
 {
   "index": "Introduction",
   "get-started": "Get Started",
-  "initialize-repo": "Create a Repository"
+  "initialize-repo": "Create a Repository",
+  "pull-changes": "Pull Changes",
+  "push-changes": "Push Changes",
+  "clone-repo": "Clone a Repository"
 }
