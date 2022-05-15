@@ -1,4 +1,10 @@
 We built the whole CLI in a single day so it's definite that there's a lot of stuff that could be improved.
 
 
-Here's a fe
+Here's a few things we know are not working:
+- We do not auto-fund the devnet accounts.
+- It currently doesn't work with yarn installs.
+- We haven't built custom wrappers for each git command. Just the `add` and `commit` commands. Rest all git commands are ran through a default function.
+- We want to build our own API and internal auth to provide uploads. We do not want users to go through the painful flow of optaining an API key.
+- Currently pulling changes removes all local changes.
+- Git conflicts are not handled, instead if you push a conflicting file, it completely overwrites the remote file. This is dangerous and we'll fix it soon.
