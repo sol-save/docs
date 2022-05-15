@@ -1,5 +1,10 @@
 {
   "index": "Introduction",
   "get-started": "Get Started",
-  "initialize-a-repository": "Create a Repo"
+  "initialize-a-repository": "Create a Repo",
+  "commit-to-repository": "Commit to a Repo",
+  "push-changes": "Push Changes",
+  "pull-changes": "Pull Changes",
+  "clone-repo": "Clone a Repo",
+  "custom-commands": "Other commands"
 }
