@@ -1,14 +1,13 @@
 {
-  "name": "nextra",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "gitsol",
+  "private": true,
   "scripts": {
     "dev": "next",
     "start": "next start",
-    "build": "next build"
+    "build": "next build",
+    "format": "prettier --write \"./**/*.{js,jsx,json,md,mdx}\""
   },
-  "author": "Shu Ding",
+  "author": "GitSol",
   "license": "MIT",
   "dependencies": {
     "gitsol": "^0.2.3",
@@ -20,7 +19,7 @@
     "react-dom": "^17.0.1"
   },
   "devDependencies": {
-    "prettier": "^2.0.5"
+    "prettier": "^2.6.2"
   },
   "prettier": {
     "semi": false,

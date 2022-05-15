@@ -1,7 +1,7 @@
 export default {
   github: 'https://github.com/sol-save',
   docsRepositoryBase: 'https://github.com/sol-save/docs',
-  titleSuffix: ' – GitSol',
+  titleSuffix: ' - GitSol',
   logo: (
     <>
       <span className="mr-2 font-extrabold hidden md:inline">GitSol</span>
@@ -63,11 +63,20 @@ export default {
       <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
     </>
   ),
+
   search: true,
+  unstable_flexsearch: true,
+
+  darkMode: true,
+
+  floatTOC: true,
+
   prevLinks: true,
   nextLinks: true,
+
   footer: true,
   footerEditLink: 'Edit this page on GitHub',
-  footerText: <>MIT {new Date().getFullYear()} © GitSol.</>,
+  footerText: `MIT ${new Date().getFullYear()} © GitSol.`,
+
   unstable_faviconGlyph: '👋',
 }
