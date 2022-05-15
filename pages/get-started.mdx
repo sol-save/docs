@@ -1,49 +1,63 @@
 # Get Started
 
-## Quick Start with Npm
+## Installlation
 
-Install it globally using npm
+### NPM
 
 ```bash
-npm install -g gitsol
+npm install -g gitsol@latest
 ```
 
-## Using npx
+### NPX
 
 ```bash
 npx gitsol
 ```
 
-## Setup up your account
+## Your Gitsol Account
 
-Run the gitsol command
+Gitsol works by generating a keypair, encrypting it and storing it locally. This keypair is used to create your user account on-chain too. To see your gitsol signer's public key, run this command:
 
 ```bash
 gitsol
 ```
 
-Type in your pass word or leave it unencrypted<br /><br />
+If you hadn't signed up before, we will guide you through the service!
+
+## Sign up flow
+
+### Encryption
+
+You will be asked for an (optional) password to encrypt your keypair. If you don't want to use a password every time you use the gitsol command, you can skip this step.
 
 <img src="pass.png" alt="pass" />
 <br />
 <br />
 
-Next get an api key from [web3.storage](https://web3.storage/) and enter it, it's free.<br /><br />
+### Storage
 
+Next, we need credentials to be able to upload files to IPFS / Filecoin. We use [web3.storage](https://web3.storage/) below the hood to execute file uploads.
+
+Go ahead and signup [here](https://web3.storage/login). Then go to the [tokens page](https://web3.storage/tokens) and create a new token. Enter that in the prompt!`
 <img src="apikey.png" alt="apikey" />
 <br />
 <br />
-Now fund your gitsol wallet using either this [faucet](https://solfaucet.com/) or
-`solana airdrop 2 <address>`
-<br />
-<br />
+
+### Funding your account
+
+Gitsol interacts with the chain under the hood. For that it needs funds to operate beforehand. The CLI will ask you to fund your account and give you the address. We suggest using [this faucet](https://solfaucet.com/) or
+the `solana airdrop 2 <address>` command to send funds.
 
 <img src="airdrop.png" alt="airdrop" />
 <br />
 <br />
-Once you have filled in the user information, you can start using gitsol
-<br />
-<br />
+
+### Complete!
+
+All done! After you've funded your account and filled out the details, gitsol will go ahead and create an account for you in the gitsol contracts. 
+
+Now you can start creating repos on gitsol!
+
 
 <img src="done.png" alt="done" />
 <br />
